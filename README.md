@@ -15,16 +15,10 @@ Many target functions relevant in particle physics are highly structured and are
 
 The idea in this project is to use a normalizing flow as a **learned proposal distribution** $q(x)$ for importance sampling. Instead of drawing samples from a naive distribution, the flow learns to generate samples in the important regions of the target $f(x)$.
 
-The integral is then estimated through importance weights
-$$
-w(x) = \frac{f(x)}{q(x)}.
-$$
+The integral is then estimated through importance weights $w(x) = \frac{f(x)}{q(x)}$.
 
-The exact value of the integral does not change, but a better proposal $q(x)$ leads to a smaller variance of the weights,
-$$
-\mathrm{Var}(w),
-$$
-and therefore to a smaller Monte Carlo error.
+
+The exact value of the integral does not change, but a better proposal $q(x)$ leads to a smaller variance of the weights $\mathrm{Var}(w)$ and therefore to a smaller Monte Carlo error.
 
 ---
 

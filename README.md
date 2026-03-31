@@ -113,21 +113,16 @@ For a good learned proposal, the weights fluctuate less strongly than with naive
 
 ---
 
-## Overview 
+## Overview
 
-This project refactors the original Jupyter notebook models into a structured, modular Python package that can be easily extended and version-controlled. 
+This project refactors the original Jupyter notebook models into a structured, modular Python package that can be easily extended and version-controlled.
 
-## Installation You can install the dependencies via pip:
+## Installation
 
-bash
+You can install the dependencies via pip:
+
+```bash
 pip install -r requirements.txt
-Ensure your Python environment supports PyTorch and matplotlib. 
-
-## Usage 
-
-The main logic resides in src/normalizing_flow/. The Jupyter notebooks that demonstrate step-by-step developments and math fundamentals have been preserved in the notebooks/ directory. To test the package, you can run the test script:
-bash
-python scripts/test_run.py
 
 ## Structure 
 

@@ -126,9 +126,10 @@ pip install -r requirements.txt
 ```
 
 ## Structure 
-
+```
 - src/normalizing_flow/models.py: AffineCouplingLayer and NormalizingFlow.
 - src/normalizing_flow/targets.py: Physics target functions.
 - src/normalizing_flow/train.py: The adaptive training loop with Early Stopping and Cosine Annealing.
 - src/normalizing_flow/utils.py: Integration and rendering plots for the learned distributions.
 - notebooks/: Collection of experimental standard notebooks.
+```

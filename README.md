@@ -99,7 +99,7 @@ The training objective effectively encourages the proposal distribution $q(x)$ t
 
 ## Monte Carlo integration
 
-After training, the flow is used for importance sampling. Given samples from the learned proposal, the integral is estimated as $I = \int f(x)\,dx \approx \frac{1}{N}\sum_{i=1}^N \frac{f(x_i)}{q(x_i)}$.
+After training, the flow is used for importance sampling. Given samples from the learned proposal, the integral is estimated as $I = \int f(x) dx \approx \frac{1}{N}\sum_{i=1}^N \frac{f(x_i)}{q(x_i)}$.
 
 
 The repository also computes:

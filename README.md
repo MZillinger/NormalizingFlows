@@ -123,6 +123,7 @@ You can install the dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Structure 
 
